@@ -1,0 +1,22 @@
+name: droppable-art
+version: 0.1.0
+
+authors:
+  - Ferhat Ziba <fero.ziba@gmail.com>
+
+dependencies:
+  pixie:
+    github: watzon/pixie
+  stumpy_png:
+    github: stumpycr/stumpy_png
+    version: "~> 5.0"
+  stumpy_core:
+    github: stumpycr/stumpy_core
+
+targets:
+  droppable-art:
+    main: src/droppable-art.cr
+
+crystal: 1.6.2
+
+license: MIT

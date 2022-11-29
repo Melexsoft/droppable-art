@@ -1,0 +1,14 @@
+version: 2.0
+shards:
+  pixie:
+    git: https://github.com/watzon/pixie.git
+    version: 0.1.0+git.commit.0285395f6bbc71f70c0befc1ffb9560595125c16
+
+  stumpy_core:
+    git: https://github.com/stumpycr/stumpy_core.git
+    version: 1.9.1
+
+  stumpy_png:
+    git: https://github.com/stumpycr/stumpy_png.git
+    version: 5.0.1
+
