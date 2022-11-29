@@ -1,18 +1,24 @@
 # droppable-art
 
-TODO: Write a description here
-
+Droppable Art is a toolkit for creating NFT collection. It is used to generate the imps collection.
 ## Installation
 
-TODO: Write installation instructions here
-
+shards build
 ## Usage
 
-TODO: Write usage instructions here
+Edit the template with the name data.xslx in the tools xls2meta, start the converter.rb copy the generated json as meta.json in collection folder. 
+
+./bin/droppable-art -d collection/ 
+
+Generates the collection.
+
+If it aborts, you can continue the generation with this command. 
+
+./bin/droppable-art -d collection/ -s true
 
 ## Development
 
-TODO: Write development instructions here
+Fork it, Fix it make a pull request.
 
 ## Contributing
 
